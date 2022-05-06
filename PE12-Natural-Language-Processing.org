@@ -1,7 +1,7 @@
 * <<<CP1224>>> NATURAL LANGUAGE PROCESSING
 :Properties:
-:author: D Thenmozhi, B Senthil Kumar
-:date: 28 June 2018
+:author:  B Senthil Kumar, D Thenmozhi
+:date: 06 May 2022
 :end:
 
 #+startup: showall
@@ -17,46 +17,25 @@
 - To understand the NLP applications. 
 
 {{{unit}}}
-|Unit I |Overview and Language Modeling|8| 
-Origins and challenges of NLP -- Knowledge in language processing --
-NLP applications; Language Modeling: Language and grammar --
-Grammar-based language models -- Lexical functional grammar --
-Government and binding; Statistical Language Model: N-gram model --
-Smoothing techniques
+|Unit I |Overview and Language Modeling|9| 
+Regular Expressions -- Text Normalization -- N-grams -- Evaluating language model -- Sampling -- Generalization -- Smoothing -- Vector Semantics: Words and vectors -- Cosine similarity -- TF-IDF -- PPMI -- Word2Vec -- Semantic properties of embeddings -- Evaluating vector model -- Neural language model: Feedforward networks for NLP -- Feedforward Neural Language Modeling -- Training the neural language model
 
-{{{unit}}}
+{{{unit}}} 
 |Unit II|Word Level and Syntactic Analysis|9| 
-Word Level Analysis: Regular expressions -- Survey of morphology --
-Word and sentence tokenization -- Stemmer -- Word classes --
-Part-of-Speech Tagging: HMM POS tagging; Syntactic Analysis:
-Constituency -- Context-free grammar -- Dependency Grammar; Parsing:
-Top-down -- Bottom-up -- Ambiguity -- Early algorithm -- CYK --
-Probabilistic CFG -- Probabilistic CYK parsing; Tree banks
+English Word Classes -- Part-of-Speech Tagging -- Named Entities -- NE Tagging -- Context-free grammar -- Grammar rules for Engligh -- Treebanks -- Constituency Parsing: Ambiguity -- CKY Parsing -- Neural Constituency Parsing -- Dependency Parsing: Dependency Relations -- Formalisms -- Transition-based and Graph-based Dependency Parsing
+
 
 {{{unit}}}
-|Unit III|Semantic Analysis And Discourse Processing |10| 
-The representation of Meaning: Meaning representation -- Computational
-desiderata for representation; Lexical Semantics: word senses --
-relations -- WordNet; Word Sense Disambiguation: Dictionary-based --
-Supervised -- Minimally-supervised -- Word Similarity: thesaurus
-methods -- distributional methods; Discourse Processing: Reference
-resolution -- Anaphora resolution algorithms -- Co-reference
-resolution
+|Unit III|Sequence Processing|9|
+HMM PoS Tagging -- CRF NE Recognizer -- Naive Bayes Classifiers -- NB for Sentiment Analysis -- RNN: Language Models -- Sequence Labeling -- Sequence Classification -- Language Generation -- Stacked RNN bi-directional
 
 {{{unit}}}
-|Unit IV|Natural Language Processing With Python |9| 
-Natural Language Toolkit (NLTK); Computing with Language: Texts and
-words -- Simple statistics; Accessing Text Corpora: Brown corpus --
-Reuters corpus -- Wordnet; Normalizing text -- Automatic Tagging;
-Supervised Classification: Gender identification -- Feature selection
--- Document classification
+|Unit IV|Semantic Analysis |9| 
+Computational Desiderata for Representations -- Model-Theoretic Semantics -- First-Order Logic -- Description Logics -- Word Senses -- Senses Relations -- WordNet -- Word Sense Disambiguation -- Feature-based WSD -- Knowledge-based WSD -- Lexical Semantics -- Semantic Roles -- Diathesis Alternations -- Problems with Thematic Roles -- Proposition Bank -- FrameNet -- Semantic Role Labeling
 
 {{{unit}}}
-|Unit V|Machine Translation, IR And IE|9|
-Machine Translation: Problems in machine translation -- Classical MT
--- Statistical MT; Information Retrieval: The vector space model --
-Term weighting -- Evaluation of IR; Information Extraction: Named
-entity recognition -- Relation detection and classification
+|Unit V|Text Analysis with Python|9|
+Tokenizer -- Vectorizing text using Gensim -- n-grams -- Word2Vec -- GloVe -- PoS Tagging -- Dependency Parsing -- Text classification using deep neural networks: IMDB sentiment analysis -- Word Similarity
 
 \hfill *Total: 45*
 
@@ -69,8 +48,8 @@ After the completion of this course, students will be able to:
  
      
 ** References
-1. Daniel Jurafsky and James H Martin, “Speech and Language Processing: An introduction to Natural Language Processing, Computational Linguistics and Speech Recognition”,2nd Edition, Prentice Hall, 2008.
-2. Tanveer Siddiqui, U.S. Tiwary, “Natural Language Processing and Information Retrieval”, Oxford University Press, 2008.
+1. Daniel Jurafsky and James H Martin, “Speech and Language Processing”, 3rd Edition, https://web.stanford.edu/~jurafsky/slp3/
+2. Bhargav Srinivasa-Desikan, "Natural Language Processing and Computational Linguistics-A practical guide to text analysis with Python, Gensim, spaCy and Keras", Packt Publishing, 2018
 3. Steven Bird, Ewan Klein, and Edward Loper, “Natural Language Processing with Python”, O’Reilly, 2009.
 4. Christopher D. Manning, Hinrich Schutze, Foundations of Statistical Natural Language Processing, MIT Press, 1999.
 5. Nitin Indurkhya, Fred J. Damerau, Handbook of Natural Language Processing, 2nd Edition, CRC Press, 2010.
